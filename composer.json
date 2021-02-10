@@ -3,7 +3,10 @@
     "description": "Interfaces that helps to describe extension",
     "type": "library",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "myclabs/php-enum": "^1.7",
+        "league/flysystem": "^2.0",
+        "ext-fileinfo": "*"
     },
     "license": "MIT",
     "authors": [
