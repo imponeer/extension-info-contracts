@@ -4,6 +4,7 @@
 namespace Imponeer\Contracts\ExtensionInfo\Factory;
 
 use Composer\Package\Package;
+use Imponeer\Contracts\ExtensionInfo\Exceptions\UnsupportedExtensionException;
 use Imponeer\Contracts\ExtensionInfo\ExtensionInfoInterface;
 
 /**
@@ -20,7 +21,17 @@ interface FromComposerPackageFactoryInterface
      * @param Package $package Composer package instance
      *
      * @return ExtensionInfoInterface
+     *
+     * @throws UnsupportedExtensionException
      */
     public function createFromComposerPackage(Package $package): ExtensionInfoInterface;
 
+    /**
+     * Checks if info factory supports such package
+     *
+     * @param Package $package Composer package to be checked if is supported
+     *
+     * @return bool
+     */
+    public function supportsPackage(Package $package): bool;
 }

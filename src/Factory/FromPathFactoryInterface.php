@@ -2,6 +2,7 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Factory;
 
+use Imponeer\Contracts\ExtensionInfo\Exceptions\UnsupportedExtensionException;
 use Imponeer\Contracts\ExtensionInfo\ExtensionInfoInterface;
 
 /**
@@ -18,7 +19,17 @@ interface FromPathFactoryInterface
      * @param string $path
      *
      * @return ExtensionInfoInterface
+     *
+     * @throws UnsupportedExtensionException
      */
     public function createFromPath(string $path): ExtensionInfoInterface;
 
+    /**
+     * Checks if info factory supports such path
+     *
+     * @param string $path Path to check if this info reader supports such path
+     *
+     * @return bool
+     */
+    public function supportsPath(string $path): bool;
 }
