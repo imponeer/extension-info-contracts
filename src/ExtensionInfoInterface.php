@@ -75,15 +75,6 @@ interface ExtensionInfoInterface
     public function getReleaseDate(): ?DateTime;
 
     /**
-     * Gets linked object
-     *
-     * Tip: when implementing this method also define return type in phpdoc
-     *
-     * @return object|null
-     */
-    public function getLinkedObject();
-
-    /**
      * Gets links to external resources
      *
      * @return LinkInterface[]
