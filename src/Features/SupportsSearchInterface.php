@@ -7,7 +7,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Features;
  *
  * @package Imponeer\Contracts\ExtensionInfo\Features
  */
-interface SupportsSearch
+interface SupportsSearchInterface
 {
     /**
      * Gets callable for building search query
