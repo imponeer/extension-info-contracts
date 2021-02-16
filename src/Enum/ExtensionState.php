@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
+use MyCLabs\Enum\Enum;
+
 /**
  * Defines package State enum
  *
@@ -11,7 +13,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  * @method static ExtensionState ACTIVE()
  * @method static ExtensionState UNKNOWN()
  */
-class ExtensionState extends \MyCLabs\Enum\Enum
+class ExtensionState extends Enum
 {
 
     /**

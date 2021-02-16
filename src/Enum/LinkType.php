@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
+use MyCLabs\Enum\Enum;
+
 /**
  * LinkType enum
  *
@@ -20,7 +22,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  * @method static LinkType WEB_CHAT()
  * @method static LinkType FUNDING_PAGE()
  */
-class LinkType extends \MyCLabs\Enum\Enum
+class LinkType extends Enum
 {
 
     /**

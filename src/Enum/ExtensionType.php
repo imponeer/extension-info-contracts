@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
+use MyCLabs\Enum\Enum;
+
 /**
  * Defines extension type enum
  *
@@ -13,7 +15,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  * @method static ExtensionType TRANSLATION()
  * @method static ExtensionType LIBRARY()
  */
-class ExtensionType extends \MyCLabs\Enum\Enum
+class ExtensionType extends Enum
 {
 
     /**
