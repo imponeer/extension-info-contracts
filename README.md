@@ -16,6 +16,11 @@ composer require imponeer/extension-info-contracts
 
 Otherwise, you need to include manually files from `src/` directory. 
 
+## Who uses?
+
+Here is a list with libraries that implements this contract:
+* [ImpressCMS/extensions-formats](https://github.com/ImpressCMS/extensions-formats) - [ImpressCMS](https://impresscms.org) themes and modules
+
 ## How to contribute?
 
 If you want to add some functionality or fix bugs, you can fork, change and create pull request. If you not sure how this works, try [interactive GitHub tutorial](https://try.github.io).
