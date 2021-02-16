@@ -3,6 +3,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Elements;
 
+use Imponeer\Contracts\ExtensionInfo\Enum\AreaType;
+
 /**
  * Defines menu item
  *
@@ -31,4 +33,18 @@ interface MenuItemInterface
      * @return InlineLinkInterface
      */
     public function getLink(): InlineLinkInterface;
+
+    /**
+     * Gets area type
+     *
+     * @return AreaType
+     */
+    public function getAreaType(): AreaType;
+
+    /**
+     * If any, menu item will require user to have specific roles to be able to shown
+     *
+     * @return string[]
+     */
+    public function needsRoles(): array;
 }

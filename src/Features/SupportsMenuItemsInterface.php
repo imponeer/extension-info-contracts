@@ -2,7 +2,7 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Features;
 
-use Imponeer\Contracts\ExtensionInfo\Elements\InlineLinkInterface;
+use Imponeer\Contracts\ExtensionInfo\Elements\MenuItemInterface;
 
 /**
  * If extension provides menu items, use this interface
@@ -15,7 +15,7 @@ interface SupportsMenuItemsInterface
     /**
      * Gets menu items
      *
-     * @return iterable|InlineLinkInterface[]
+     * @return iterable|MenuItemInterface[]
      */
     public function getMenuItems(): iterable;
 
