@@ -29,9 +29,11 @@
         "interfaces"
     ],
     "require-dev": {
-        "composer/composer": "^1.0||^2.0"
+        "composer/composer": "^1.0||^2.0",
+        "dragonmantank/cron-expression": "^3.1"
     },
     "suggest": {
-        "composer/composer": "For using with factories that implements \\Imponeer\\Contracts\\ExtensionInfo\\Factory\\FromComposerPackageFactoryInterface"
+        "composer/composer": "For using with composer based factories",
+        "dragonmantank/cron-expression": "For using to describe extensions that can have cron jobs"
     }
 }
