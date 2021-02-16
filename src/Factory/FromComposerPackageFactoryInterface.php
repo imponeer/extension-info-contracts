@@ -34,4 +34,11 @@ interface FromComposerPackageFactoryInterface
      * @return bool
      */
     public function supportsPackage(Package $package): bool;
+
+    /**
+     * Gets supported composer package types
+     *
+     * @return string[]
+     */
+    public function getSupportedPackageTypes(): array;
 }
