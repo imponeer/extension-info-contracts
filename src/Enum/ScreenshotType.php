@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
+use MyCLabs\Enum\Enum;
+
 /**
  * Defines screenshot type
  *
@@ -10,7 +12,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  * @method static ScreenshotType USER_SIDE()
  * @method static ScreenshotType ADMIN_SIDE()
  */
-class ScreenshotType extends \MyCLabs\Enum\Enum
+class ScreenshotType extends Enum
 {
 
     /**

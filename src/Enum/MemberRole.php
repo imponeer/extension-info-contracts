@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
+use MyCLabs\Enum\Enum;
+
 /**
  * Member role enum
  *
@@ -15,7 +17,7 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  * @method static MemberRole DOCUMENTATION_WRITER()
  * @method static MemberRole TRANSLATOR()
  */
-class MemberRole extends \MyCLabs\Enum\Enum
+class MemberRole extends Enum
 {
 
     /**
