@@ -29,7 +29,7 @@
         "interfaces"
     ],
     "require-dev": {
-        "composer/composer": "^1.0||^2.0",
+        "composer/composer": "^1.0||^2.0.14",
         "dragonmantank/cron-expression": "^3.1"
     },
     "suggest": {
