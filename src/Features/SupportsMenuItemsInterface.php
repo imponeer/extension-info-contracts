@@ -13,6 +13,8 @@ interface SupportsMenuItemsInterface
 {
     /**
      * Gets menu items
+     *
+     * @return iterable<MenuItemInterface>
      */
     public function getMenuItems(): iterable;
 }

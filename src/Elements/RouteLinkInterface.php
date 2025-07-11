@@ -16,6 +16,8 @@ interface RouteLinkInterface extends InlineLinkInterface
 
     /**
      * Gets params for route link
+     *
+     * @return array<string, mixed>
      */
     public function getParams(): array;
 }

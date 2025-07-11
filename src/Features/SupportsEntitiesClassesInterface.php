@@ -15,6 +15,8 @@ interface SupportsEntitiesClassesInterface
     /**
      * If tables are automatically created from entities classes or models, this method should return reference to such
      * classes descriptions
+     *
+     * @return iterable<string>
      */
     public function getEntitiesClasses(): iterable;
 }

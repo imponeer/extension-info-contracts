@@ -39,6 +39,8 @@ interface ExtensionInfoInterface
 
     /**
      * Get SPDX license name or "proprietary" for commercial
+     *
+     * @return string[]
      */
     public function getLicense(): array;
 
@@ -59,6 +61,8 @@ interface ExtensionInfoInterface
 
     /**
      * Gets links to external resources
+     *
+     * @return LinkInterface[]
      */
     public function getLinks(): array;
 
@@ -74,16 +78,22 @@ interface ExtensionInfoInterface
 
     /**
      * Gets team members of this extension
+     *
+     * @return MemberInterface[]
      */
     public function getTeamMembers(): array;
 
     /**
      * Gets required packages
+     *
+     * @return iterable<RelatedPackageInterface>
      */
     public function getRequiredPackages(): iterable;
 
     /**
      * Gets suggested packages
+     *
+     * @return iterable<RelatedPackageInterface>
      */
     public function getSuggestedPackages(): iterable;
 }
