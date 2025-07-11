@@ -12,8 +12,6 @@ interface DirectLinkInterface extends InlineLinkInterface
 
     /**
      * Gets URL
-     *
-     * @return string
      */
     public function getUrl(): string;
 

@@ -15,7 +15,7 @@ interface SupportsTemplatesInterface
     /**
      * Returns templates info
      *
-     * @return iterable|TemplateInterface[]
+     * @return iterable<TemplateInterface>
      */
     public function getTemplates(): iterable;
 

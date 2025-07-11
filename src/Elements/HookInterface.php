@@ -11,16 +11,12 @@ interface HookInterface
 {
 
     /**
-     * GEts event name when hook should be executed
-     *
-     * @return string
+     * Gets event name when hook should be executed
      */
     public function getEventName(): string;
 
     /**
      * Returns action that should be executed for this hook
-     *
-     * @return callable
      */
     public function getAction(): callable;
 }

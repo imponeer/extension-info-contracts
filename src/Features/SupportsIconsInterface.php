@@ -15,7 +15,7 @@ interface SupportsIconsInterface
     /**
      * Gets icons
      *
-     * @return iterable|IconInterface[]
+     * @return iterable<IconInterface>
      */
     public function getIcons(): iterable;
 

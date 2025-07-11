@@ -3,8 +3,7 @@
     "description": "Interfaces that helps to describe extension",
     "type": "library",
     "require": {
-        "php": ">=7.3",
-        "myclabs/php-enum": "^1.7",
+        "php": ">=8.3",
         "league/flysystem": "^2.0",
         "ext-fileinfo": "*"
     },

@@ -15,7 +15,7 @@ interface SupportReplacementsPackages
     /**
      * Gets packages list that this extension replaces
      *
-     * @return iterable|RelatedPackageInterface[]
+     * @return iterable<RelatedPackageInterface>
      */
     public function getReplaces(): iterable;
 

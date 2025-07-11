@@ -2,56 +2,46 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
-use MyCLabs\Enum\Enum;
-
 /**
  * Member role enum
  *
  * @package Imponeer\Contracts\ExtensionInfo\Enum
- *
- * @method static MemberRole UNKNOWN()
- * @method static MemberRole DEVELOPER()
- * @method static MemberRole DESIGNER()
- * @method static MemberRole MANAGER()
- * @method static MemberRole TESTER()
- * @method static MemberRole DOCUMENTATION_WRITER()
- * @method static MemberRole TRANSLATOR()
  */
-class MemberRole extends Enum
+enum MemberRole: int
 {
 
     /**
      * Team member has unknown role
      */
-    private const UNKNOWN = 0;
+    case UNKNOWN = 0;
 
     /**
      * Team member has developer role
      */
-    private const DEVELOPER = 1;
+    case DEVELOPER = 1;
 
     /**
      * Team member is designer
      */
-    private const DESIGNER = 2;
+    case DESIGNER = 2;
 
     /**
      * Team member is manager
      */
-    private const MANAGER = 3;
+    case MANAGER = 3;
 
     /**
      * Team member is tester
      */
-    private const TESTER = 4;
+    case TESTER = 4;
 
     /**
      * Team member is documentation writer
      */
-    private const DOCUMENTATION_WRITER = 5;
+    case DOCUMENTATION_WRITER = 5;
 
     /**
      * Team member is translator
      */
-    private const TRANSLATOR = 6;
+    case TRANSLATOR = 6;
 }

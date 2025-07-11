@@ -15,7 +15,7 @@ interface SupportsBlocksInterface
     /**
      * Gets blocks data
      *
-     * @return BlockInterface[]
+     * @return iterable<BlockInterface>
      */
     public function getBlocks(): iterable;
 

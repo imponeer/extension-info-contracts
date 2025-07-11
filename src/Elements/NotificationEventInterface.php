@@ -12,43 +12,33 @@ interface NotificationEventInterface
 
     /**
      * Gets notifications event internal name
-     *
-     * @return string
      */
     public function getName(): string;
 
     /**
      * Gets notification category name for what this event only applies
-     *
-     * @return string
      */
     public function getCategory(): string;
 
     /**
      * Gets title to be shown for user notification selection
-     *
-     * @return string
      */
     public function getSelectionTitle(): string;
 
     /**
      * gets title when notification send
-     *
-     * @return string|callable
      */
-    public function getSendTitle();
+    public function getSendTitle(): string|callable;
 
     /**
      * Gets description when notification is send
-     *
-     * @return string|callable
      */
-    public function getSendDescription();
+    public function getSendDescription(): string|callable;
 
     /**
      * Gets extra data for this event
      *
-     * @return array
+     * @return array<string, mixed>
      */
     public function getData(): array;
 

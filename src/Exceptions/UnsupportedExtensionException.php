@@ -20,7 +20,7 @@ class UnsupportedExtensionException extends Exception
      * @param int $code Error code
      * @param Throwable|null $previous Previous exception
      */
-    public function __construct($name, $code = 0, ?Throwable $previous = null)
+    public function __construct(string $name, int $code = 0, ?Throwable $previous = null)
     {
         parent::__construct($name . ' extension for this factory is not supported', $code, $previous);
     }

@@ -2,44 +2,36 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Enum;
 
-use MyCLabs\Enum\Enum;
-
 /**
  * Defines extension type enum
  *
  * @package Imponeer\Contracts\ExtensionInfo\Enum
- *
- * @method static ExtensionType UNKNOWN()
- * @method static ExtensionType MODULE()
- * @method static ExtensionType THEME()
- * @method static ExtensionType TRANSLATION()
- * @method static ExtensionType LIBRARY()
  */
-class ExtensionType extends Enum
+enum ExtensionType: int
 {
 
     /**
      * This means that package type can't be determined
      */
-    private const UNKNOWN = 0;
+    case UNKNOWN = 0;
 
     /**
      * This means package is module
      */
-    private const MODULE = 1;
+    case MODULE = 1;
 
     /**
      * This means package is a theme
      */
-    private const THEME = 2;
+    case THEME = 2;
 
     /**
      * This means package is translation
      */
-    private const TRANSLATION = 3;
+    case TRANSLATION = 3;
 
     /**
      * This means package is some library
      */
-    private const LIBRARY = 4;
+    case LIBRARY = 4;
 }

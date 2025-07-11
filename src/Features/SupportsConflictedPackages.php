@@ -15,7 +15,7 @@ interface SupportsConflictedPackages
     /**
      * Gets packages with whom extension conflicts
      *
-     * @return iterable|RelatedPackageInterface[]
+     * @return iterable<RelatedPackageInterface>
      */
     public function getConflictedPackages(): iterable;
 
