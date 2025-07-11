@@ -15,15 +15,11 @@ interface SupportsNotificationsInterface
 
     /**
      * Gets notifications categories
-     *
-     * @return iterable|NotificationCategoryInterface[]
      */
     public function getNotificationsCategories(): iterable;
 
     /**
      * Gets info about events that triggers notifications
-     *
-     * @return iterable|NotificationEventInterface[]
      */
     public function getNotificationsEvents(): iterable;
 

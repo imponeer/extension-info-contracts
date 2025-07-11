@@ -15,7 +15,7 @@ interface SupportsAssetsInterface
     /**
      * Get files attributes collection for assets from package
      *
-     * @return iterable|FileAttributes[]
+     * @return iterable<FileAttributes>
      */
     public function getAssets(): iterable;
 

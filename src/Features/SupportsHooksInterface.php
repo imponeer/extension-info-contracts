@@ -15,7 +15,7 @@ interface SupportsHooksInterface
     /**
      * Returns collection of supported hooks
      *
-     * @return iterable|HookInterface[]
+     * @return iterable<HookInterface>
      */
     public function getHooks(): iterable;
 

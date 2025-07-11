@@ -15,7 +15,7 @@ interface SupportsTablesInterface
     /**
      * Gets tables names that are managed by this extension
      *
-     * @return iterable|TableInterface[]
+     * @return iterable<TableInterface>
      */
     public function getTables(): iterable;
 

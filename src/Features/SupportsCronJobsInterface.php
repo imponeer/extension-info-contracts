@@ -2,6 +2,8 @@
 
 namespace Imponeer\Contracts\ExtensionInfo\Features;
 
+use Imponeer\Contracts\ExtensionInfo\Elements\CronJobInterface;
+
 /**
  * If extension can have cron jobs this interface must be implemented too
  *
@@ -13,7 +15,7 @@ interface SupportsCronJobsInterface
     /**
      * Gets cron jobs list
      *
-     * @return iterable
+     * @return iterable<CronJobInterface>
      */
     public function getCronJobs(): iterable;
 

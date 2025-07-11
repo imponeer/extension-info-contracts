@@ -15,7 +15,7 @@ interface SupportsCommentsInterface
     /**
      * Gets places where comments can be
      *
-     * @return iterable|CommentPlaceInterface[]
+     * @return iterable<CommentPlaceInterface>
      */
     public function getCommentsPlaces(): iterable;
 

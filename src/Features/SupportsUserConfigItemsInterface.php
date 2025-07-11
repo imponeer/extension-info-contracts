@@ -15,7 +15,7 @@ interface SupportsUserConfigItemsInterface
     /**
      * Gets user config items
      *
-     * @return iterable|UserConfigItemInterface[]
+     * @return iterable<UserConfigItemInterface>
      */
     public function getUserConfigItems(): iterable;
 

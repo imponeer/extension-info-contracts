@@ -14,15 +14,11 @@ interface IconInterface
 
     /**
      * Gets path to icon
-     *
-     * @return FileAttributes
      */
     public function getFile(): FileAttributes;
 
     /**
      * Gets icon category
-     *
-     * @return string
      */
     public function getCategory(): string;
 }

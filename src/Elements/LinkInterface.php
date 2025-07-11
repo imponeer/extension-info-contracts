@@ -14,15 +14,11 @@ interface LinkInterface
 
     /**
      * Gets URL where link is pointing
-     *
-     * @return string
      */
     public function getUrl(): string;
 
     /**
      * Gets link type
-     *
-     * @return LinkType
      */
     public function getType(): LinkType;
 

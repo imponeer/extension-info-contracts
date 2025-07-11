@@ -14,15 +14,11 @@ interface CommentPlaceInterface extends SupportsHooksInterface
 
     /**
      * Get name of place
-     *
-     * @return string
      */
     public function getName(): string;
 
     /**
      * Link info when detecting a place
-     *
-     * @return InlineLinkInterface
      */
     public function getLink(): InlineLinkInterface;
 

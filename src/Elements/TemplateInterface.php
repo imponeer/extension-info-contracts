@@ -14,15 +14,11 @@ interface TemplateInterface
 
     /**
      * Get reference to template file
-     *
-     * @return FileAttributes
      */
     public function getFile(): FileAttributes;
 
     /**
      * Gets template description
-     *
-     * @return string
      */
     public function getDescription(): string;
 }

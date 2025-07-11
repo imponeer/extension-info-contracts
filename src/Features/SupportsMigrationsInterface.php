@@ -13,14 +13,12 @@ interface SupportsMigrationsInterface
     /**
      * Gets paths where migration paths are available
      *
-     * @return iterable|string[]
+     * @return iterable<string>
      */
     public function getMigrationsPaths(): iterable;
 
     /**
      * Gets name of provider who deals with extensions migrations (f.e. phinx, phoenix, yii-migrations...)
-     *
-     * @return string
      */
     public function getMigrationsProvider(): string;
 
