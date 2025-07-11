@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface RouteLinkInterface extends InlineLinkInterface
 {
-
     /**
      * Route name
      */

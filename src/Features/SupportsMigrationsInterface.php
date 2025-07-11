@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Features;
  */
 interface SupportsMigrationsInterface
 {
-
     /**
      * Gets paths where migration paths are available
      *
@@ -21,5 +20,4 @@ interface SupportsMigrationsInterface
      * Gets name of provider who deals with extensions migrations (f.e. phinx, phoenix, yii-migrations...)
      */
     public function getMigrationsProvider(): string;
-
 }

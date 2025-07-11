@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface HookInterface
 {
-
     /**
      * Gets event name when hook should be executed
      */

@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Imponeer\Contracts\ExtensionInfo\Elements;
 
 /**
@@ -10,5 +9,4 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface InlineLinkInterface
 {
-
 }

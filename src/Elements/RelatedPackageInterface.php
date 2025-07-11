@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface RelatedPackageInterface
 {
-
     /**
      * Gets related package name
      */
@@ -24,5 +23,4 @@ interface RelatedPackageInterface
      * If there is reason for it, get's it
      */
     public function getReason(): string;
-
 }

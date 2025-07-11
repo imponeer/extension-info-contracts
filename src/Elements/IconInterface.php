@@ -11,7 +11,6 @@ use League\Flysystem\FileAttributes;
  */
 interface IconInterface
 {
-
     /**
      * Gets path to icon
      */

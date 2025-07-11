@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface NotificationCategoryInterface
 {
-
     /**
      * Internal name for notification category
      */
@@ -29,5 +28,4 @@ interface NotificationCategoryInterface
      * Gets paths from where this notification category subscription should be visible
      */
     public function getSubscriptionPaths(): iterable;
-
 }

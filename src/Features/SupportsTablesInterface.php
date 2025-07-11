@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\TableInterface;
  */
 interface SupportsTablesInterface
 {
-
     /**
      * Gets tables names that are managed by this extension
      *
      * @return iterable<TableInterface>
      */
     public function getTables(): iterable;
-
 }

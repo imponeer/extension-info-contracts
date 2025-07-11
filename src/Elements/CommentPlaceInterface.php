@@ -11,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Features\SupportsHooksInterface;
  */
 interface CommentPlaceInterface extends SupportsHooksInterface
 {
-
     /**
      * Get name of place
      */
@@ -21,5 +20,4 @@ interface CommentPlaceInterface extends SupportsHooksInterface
      * Link info when detecting a place
      */
     public function getLink(): InlineLinkInterface;
-
 }

@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface UserConfigItemInterface
 {
-
     /**
      * Configuration item name
      */

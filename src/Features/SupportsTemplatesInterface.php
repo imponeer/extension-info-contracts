@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\TemplateInterface;
  */
 interface SupportsTemplatesInterface
 {
-
     /**
      * Returns templates info
      *
      * @return iterable<TemplateInterface>
      */
     public function getTemplates(): iterable;
-
 }

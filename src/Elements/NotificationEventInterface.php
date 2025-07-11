@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface NotificationEventInterface
 {
-
     /**
      * Gets notifications event internal name
      */
@@ -41,5 +40,4 @@ interface NotificationEventInterface
      * @return array<string, mixed>
      */
     public function getData(): array;
-
 }

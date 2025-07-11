@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\UserConfigItemInterface;
  */
 interface SupportsUserConfigItemsInterface
 {
-
     /**
      * Gets user config items
      *
      * @return iterable<UserConfigItemInterface>
      */
     public function getUserConfigItems(): iterable;
-
 }

@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\HookInterface;
  */
 interface SupportsHooksInterface
 {
-
     /**
      * Returns collection of supported hooks
      *
      * @return iterable<HookInterface>
      */
     public function getHooks(): iterable;
-
 }

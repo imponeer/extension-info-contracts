@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  */
 enum ExtensionType: int
 {
-
     /**
      * This means that package type can't be determined
      */

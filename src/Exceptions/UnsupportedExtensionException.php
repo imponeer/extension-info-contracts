@@ -12,7 +12,6 @@ use Throwable;
  */
 class UnsupportedExtensionException extends Exception
 {
-
     /**
      * UnsupportedExtensionException constructor.
      *
@@ -24,5 +23,4 @@ class UnsupportedExtensionException extends Exception
     {
         parent::__construct($name . ' extension for this factory is not supported', $code, $previous);
     }
-
 }

@@ -11,7 +11,6 @@ use League\Flysystem\FileAttributes;
  */
 interface SupportsSQLFilesInterface
 {
-
     /**
      * If there is installation SQL file returns reference
      *
@@ -32,5 +31,4 @@ interface SupportsSQLFilesInterface
      * @return FileAttributes|null
      */
     public function getUpdateSQLFile(): ?FileAttributes;
-
 }

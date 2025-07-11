@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  */
 enum AreaType: int
 {
-
     /**
      * Screenshot is for user side
      */
@@ -19,5 +18,4 @@ enum AreaType: int
      * Screenshot is for admin side
      */
     case ADMIN_SIDE = 1;
-
 }

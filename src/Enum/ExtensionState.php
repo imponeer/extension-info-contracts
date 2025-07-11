@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  */
 enum ExtensionState: int
 {
-
     /**
      * This mean package is abandoned
      */

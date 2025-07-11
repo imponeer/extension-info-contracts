@@ -11,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Enum\MemberRole;
  */
 interface MemberInterface
 {
-
     /**
      * Gets member name
      */
