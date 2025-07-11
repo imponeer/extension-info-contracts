@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\RelatedPackageInterface;
  */
 interface SupportsConflictedPackages
 {
-
     /**
      * Gets packages with whom extension conflicts
      *
      * @return iterable<RelatedPackageInterface>
      */
     public function getConflictedPackages(): iterable;
-
 }

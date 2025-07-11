@@ -11,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Enum\LinkType;
  */
 interface LinkInterface
 {
-
     /**
      * Gets URL where link is pointing
      */
@@ -21,5 +20,4 @@ interface LinkInterface
      * Gets link type
      */
     public function getType(): LinkType;
-
 }

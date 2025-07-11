@@ -11,10 +11,8 @@ use Imponeer\Contracts\ExtensionInfo\Elements\MenuItemInterface;
  */
 interface SupportsMenuItemsInterface
 {
-
     /**
      * Gets menu items
      */
     public function getMenuItems(): iterable;
-
 }

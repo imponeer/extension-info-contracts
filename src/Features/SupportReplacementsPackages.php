@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\RelatedPackageInterface;
  */
 interface SupportReplacementsPackages
 {
-
     /**
      * Gets packages list that this extension replaces
      *
      * @return iterable<RelatedPackageInterface>
      */
     public function getReplaces(): iterable;
-
 }

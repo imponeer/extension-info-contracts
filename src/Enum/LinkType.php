@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  */
 enum LinkType: int
 {
-
     /**
      * Link is email
      */
@@ -69,5 +68,4 @@ enum LinkType: int
      * Link points to funding page
      */
     case FUNDING_PAGE = 12;
-
 }

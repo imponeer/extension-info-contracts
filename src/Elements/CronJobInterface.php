@@ -11,7 +11,6 @@ use Cron\CronExpression;
  */
 interface CronJobInterface
 {
-
     /**
      * Gets name
      */
@@ -31,5 +30,4 @@ interface CronJobInterface
      * Gets action to be executed for this cron
      */
     public function getAction(): callable;
-
 }

@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\CommentPlaceInterface;
  */
 interface SupportsCommentsInterface
 {
-
     /**
      * Gets places where comments can be
      *
      * @return iterable<CommentPlaceInterface>
      */
     public function getCommentsPlaces(): iterable;
-
 }

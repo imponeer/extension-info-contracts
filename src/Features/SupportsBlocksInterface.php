@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\BlockInterface;
  */
 interface SupportsBlocksInterface
 {
-
     /**
      * Gets blocks data
      *
      * @return iterable<BlockInterface>
      */
     public function getBlocks(): iterable;
-
 }

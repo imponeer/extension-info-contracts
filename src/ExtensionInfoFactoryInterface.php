@@ -9,5 +9,4 @@ namespace Imponeer\Contracts\ExtensionInfo;
  */
 interface ExtensionInfoFactoryInterface
 {
-
 }

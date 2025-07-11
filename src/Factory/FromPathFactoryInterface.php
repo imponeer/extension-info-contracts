@@ -12,7 +12,6 @@ use Imponeer\Contracts\ExtensionInfo\ExtensionInfoInterface;
  */
 interface FromPathFactoryInterface
 {
-
     /**
      * Creates from path
      *

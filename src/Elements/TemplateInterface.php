@@ -11,7 +11,6 @@ use League\Flysystem\FileAttributes;
  */
 interface TemplateInterface
 {
-
     /**
      * Get reference to template file
      */

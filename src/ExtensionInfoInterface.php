@@ -17,7 +17,6 @@ use League\Flysystem\Filesystem;
  */
 interface ExtensionInfoInterface
 {
-
     /**
      * Gets extension type
      */

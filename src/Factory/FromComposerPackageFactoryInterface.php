@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Imponeer\Contracts\ExtensionInfo\Factory;
 
 use Composer\Package\Package;
@@ -14,7 +13,6 @@ use Imponeer\Contracts\ExtensionInfo\ExtensionInfoInterface;
  */
 interface FromComposerPackageFactoryInterface
 {
-
     /**
      * Creates from composer package instance
      *

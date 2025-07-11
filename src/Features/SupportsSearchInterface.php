@@ -22,5 +22,4 @@ interface SupportsSearchInterface
      * @return callable|null
      */
     public function getSearchExecute(): ?callable;
-
 }

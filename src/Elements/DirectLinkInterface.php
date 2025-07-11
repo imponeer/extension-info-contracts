@@ -9,10 +9,8 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface DirectLinkInterface extends InlineLinkInterface
 {
-
     /**
      * Gets URL
      */
     public function getUrl(): string;
-
 }

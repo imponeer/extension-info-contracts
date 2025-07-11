@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\IconInterface;
  */
 interface SupportsIconsInterface
 {
-
     /**
      * Gets icons
      *
      * @return iterable<IconInterface>
      */
     public function getIcons(): iterable;
-
 }

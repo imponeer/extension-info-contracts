@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\Elements\CronJobInterface;
  */
 interface SupportsCronJobsInterface
 {
-
     /**
      * Gets cron jobs list
      *
      * @return iterable<CronJobInterface>
      */
     public function getCronJobs(): iterable;
-
 }

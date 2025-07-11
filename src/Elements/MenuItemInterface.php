@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Imponeer\Contracts\ExtensionInfo\Elements;
 
 use Imponeer\Contracts\ExtensionInfo\Enum\AreaType;
@@ -12,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Enum\AreaType;
  */
 interface MenuItemInterface
 {
-
     /**
      * Gets menu item title
      */

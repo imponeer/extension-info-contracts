@@ -11,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Elements\ScreenshotInterface;
  */
 interface SupportsScreenshotsInterface
 {
-
     /**
      * Gets screenshots
      *

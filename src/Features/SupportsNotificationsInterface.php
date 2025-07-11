@@ -12,7 +12,6 @@ use Imponeer\Contracts\ExtensionInfo\Elements\NotificationEventInterface;
  */
 interface SupportsNotificationsInterface
 {
-
     /**
      * Gets notifications categories
      */
@@ -22,5 +21,4 @@ interface SupportsNotificationsInterface
      * Gets info about events that triggers notifications
      */
     public function getNotificationsEvents(): iterable;
-
 }

@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Elements;
  */
 interface TableInterface
 {
-
     /**
      * Gets name
      *

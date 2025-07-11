@@ -9,7 +9,6 @@ namespace Imponeer\Contracts\ExtensionInfo\Enum;
  */
 enum MemberRole: int
 {
-
     /**
      * Team member has unknown role
      */

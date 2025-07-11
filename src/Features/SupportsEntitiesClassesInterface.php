@@ -12,11 +12,9 @@ use ReflectionClass;
  */
 interface SupportsEntitiesClassesInterface
 {
-
     /**
      * If tables are automatically created from entities classes or models, this method should return reference to such
      * classes descriptions
      */
     public function getEntitiesClasses(): iterable;
-
 }

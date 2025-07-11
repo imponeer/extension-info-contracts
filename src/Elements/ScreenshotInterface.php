@@ -11,7 +11,6 @@ use Imponeer\Contracts\ExtensionInfo\Enum\ScreenshotType;
  */
 interface ScreenshotInterface
 {
-
     /**
      * Get screenshot URL
      *
