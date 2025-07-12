@@ -6,7 +6,7 @@
         "php": ">=8.3",
         "league/flysystem": "^2.0",
         "ext-fileinfo": "*",
-        "composer/composer": ">2.1.9",
+        "composer/composer": "^2.8.0",
         "dragonmantank/cron-expression": "^3.1"
     },
     "license": "MIT",
