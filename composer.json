@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=8.3",
-        "league/flysystem": "^2.0",
+        "league/flysystem": "^2.0 || ^3.0",
         "ext-fileinfo": "*",
         "composer/composer": "^2.8.0",
         "dragonmantank/cron-expression": "^3.1"
