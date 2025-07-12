@@ -18,6 +18,8 @@ interface MenuItemInterface
 
     /**
      * Returns menu classes for this item
+     *
+     * @return string[]
      */
     public function getClass(): array;
 
@@ -33,6 +35,8 @@ interface MenuItemInterface
 
     /**
      * If any, menu item will require user to have specific roles to be able to shown
+     *
+     * @return string[]
      */
     public function needsRoles(): array;
 }

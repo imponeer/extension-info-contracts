@@ -18,11 +18,15 @@ interface MemberInterface
 
     /**
      * Gets links to external resources
+     *
+     * @return LinkInterface[]
      */
     public function getLinks(): array;
 
     /**
      * Gets member roles
+     *
+     * @return MemberRole[]
      */
     public function getRoles(): array;
 }

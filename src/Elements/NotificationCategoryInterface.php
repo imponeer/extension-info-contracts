@@ -26,6 +26,8 @@ interface NotificationCategoryInterface
 
     /**
      * Gets paths from where this notification category subscription should be visible
+     *
+     * @return iterable<string>
      */
     public function getSubscriptionPaths(): iterable;
 }
